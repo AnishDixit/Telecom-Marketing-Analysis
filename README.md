@@ -1,12 +1,12 @@
 # Telecom-Marketing-Analysis
 A statistical model for analysing trends in direct marketing in the telecom sector using various classification algorithms. prepared as a solution to a case study in the Business Analytics and Data Mining Championship held at NMIMS, Mumbai in October 2019.
 
-```
+
 Prepared by,
 Anish Dixit,
 Aumkar Gadekar,
 Aditi Kandoi
-```
+
 ### The following document contains a detailed summary of the solution to the problem statement ‘Telecommunication- Direct Marketing’ prepared by team ‘BADM_074’.
 
 ### INTRODUCTION
@@ -35,12 +35,12 @@ target(output) ie. Y
 
 Arguably the most underrated yet pivotal phase of formulating a statistical model, EDA involves carefully scrutinizing the data, familiarizing the data and then trying to derive insights about overpowering features, irrelevant features, etc. from it before actually
 moving on to modelling.
-● Graphing parameter last month against target shows us that the customers with packs expiring in May are most likely to buy new packs.
-● Graphing parameter job against target shows us that the customers with management jobs are most likely to buy new packs.
-● Graphing parameter education against target shows us that the customers with secondary education are most likely to buy new packs.
-● Graphing parameter marital status against target shows us that the customers with management jobs are most likely to buy new packs.
-● Graphing parameter duration against target shows us that the customers whose calls lasted for 0-500 seconds are most likely to buy new packs.
-● Graphing parameter smart against target shows us that the customers who did not have smartphones are most likely to buy new packs.
+● Graphing parameter last month against target shows us that the customers with packs expiring in May are most likely to buy new packs.  
+● Graphing parameter job against target shows us that the customers with management jobs are most likely to buy new packs.  
+● Graphing parameter education against target shows us that the customers with secondary education are most likely to buy new packs.  
+● Graphing parameter marital status against target shows us that the customers with management jobs are most likely to buy new packs.  
+● Graphing parameter duration against target shows us that the customers whose calls lasted for 0-500 seconds are most likely to buy new packs.  
+● Graphing parameter smart against target shows us that the customers who did not have smartphones are most likely to buy new packs.  
 
 **Final step in EDA: Feature Extraction**
 We tried various feature extraction techniques to find the dependence of the output on the features and remove redundant attributes. The extra trees classifier is a reliable feature selector and based on its results, the attribute “connect” was found to have negligible impact on the output. Hence this redundant feature was removed. Our validation set too gave higher accuracy with this feature removed.
